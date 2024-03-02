@@ -2,7 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Core logic built with 'fp-ts' and 'ts-match' packages
+Core logic built with 'gcanti/fp-ts' and 'gvergnaud/ts-pattern' packages
+
+## Demo
+
+[Link to demo page](https://diverpb.github.io/calculator-fp-ts/)
 
 ## Folders
 
@@ -12,4 +16,9 @@ Core logic built with 'fp-ts' and 'ts-match' packages
 
 ## Available Scripts
 
-`npm start` to run
+`npm start` to start development server
+
+`npm run build` to build app and copy to /docs
+
+`npm run test` to run tests
+

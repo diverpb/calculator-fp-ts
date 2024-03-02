@@ -1,7 +1,8 @@
 {
-  "name": "calculator",
+  "name": "calculator-fp-ts",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://diverpb.github.io/calculator-fp-ts/",
   "devDependencies": {
     "prettier": "^3.2.5"
   },
@@ -23,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rm -rf docs && mv build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
